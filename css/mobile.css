@@ -1,0 +1,175 @@
+@media screen and (max-width: 780px) {
+  header {
+    height: auto;
+  }
+  header .header {
+    display: block;
+    grid-template-columns: none;
+    width: 80%;
+    margin: 0px auto;
+    padding: 0;
+    text-align: center;
+  }
+  header .header span {
+    display: none;
+  }
+  header .header .redes-topo {
+    width: 91%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .image-full {
+    background: none;
+    height: auto;
+  }
+  .image-full h1 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+  .image-full h3 {
+    font-size: 34px;
+    padding: 10px 0px;
+  }
+  .image-full span {
+    font-size: 20px;
+  }
+  .image-full .btn {
+    font-size: 18px;
+    width: 210px;
+    padding: 10px;
+    margin-top: 32px;
+  }
+  .image-full .mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-full .banner-text {
+    padding: 0 52px;
+    position: absolute;
+    top: 190px;
+    width: 68%;
+  }
+  .content {
+    width: 80%;
+  }
+  .content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .content form {
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+  }
+  .content form .conteudo-form {
+    width: 73%;
+  }
+  .content form label {
+    font-size: 13px!important;
+  }
+  .content .title {
+    font-size: 40px;
+  }
+  .content .the-event {
+    display: block;
+    flex-direction: none;
+    margin-bottom: 0px;
+  }
+  .content .event-text {
+    display: block;
+  }
+  .content .text {
+    margin: 0;
+    width: 100%;
+  }
+  .content .convidados ul {
+    display: block;
+  }
+  .content .convidados ul li {
+    padding: 20px 30px;
+  }
+  .content .journalist i {
+    font-size: 30px;
+  }
+  .content .mediacao {
+    display: block;
+    width: 95%;
+  }
+  .content .mediacao ul {
+    display: block;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+  footer ul {
+    margin-top: 15px;
+  }
+  footer ul img {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 667px) and (max-width: 980px) {
+  header {
+    padding: 15px 0;
+  }
+  .image-full {
+    background: none;
+    height: auto;
+  }
+  .image-full h1 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  .image-full h3 {
+    font-size: 54px;
+    padding: 10px 0;
+    line-height: 62px;
+  }
+  .image-full span {
+    font-size: 24px;
+  }
+  .image-full .btn {
+    font-size: 18px;
+    width: 210px;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .image-full .mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-full .banner-text {
+    padding: 0 52px;
+    position: absolute;
+    top: 260px;
+  }
+  form {
+    width: 90%!important;
+    margin-top: 30px;
+  }
+  .mediacao {
+    display: grid!important;
+  }
+  .mediacao ul {
+    display: block;
+  }
+}
+@media screen and (min-width: 667px) and (max-width: 768px) {
+  .header ul {
+    display: flex;
+    position: relative;
+    left: 118px;
+  }
+  .conteudo-form {
+    width: 100%!important;
+  }
+}
